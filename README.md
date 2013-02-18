@@ -26,7 +26,8 @@ wget http://neverball.org/neverball-1.5.4.tar.gz
 tar -xzf neverball-1.5.4.tar.gz
 cd neverball-1.5.4
 patch -p1 -i ../neverball-fbiuhh.patch
-make```
+make
+```
 
 ### Client Architecture
 

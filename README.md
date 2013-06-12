@@ -17,7 +17,7 @@ respectively) are provided.
 
 ## Installation
 
-Just apply the patch to the *Neverball* 1.5.4 source code. On Ubuntu 12.04 this
+Just apply the patch to the *Neverball* 1.5.4 source code. On Ubuntu 13.04 this
 should work:
 
 ```bash
@@ -26,7 +26,7 @@ wget http://neverball.org/neverball-1.5.4.tar.gz
 tar -xzf neverball-1.5.4.tar.gz
 cd neverball-1.5.4
 patch -p1 -i ../neverball-fbiuhh.patch
-make
+make LDFLAGS="-lX11 -lm"
 ```
 
 ### Client Architecture
